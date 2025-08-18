@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+
+.wix-madefor-display-uniquifier{
+  font-family: "Wix Madefor Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.rye-regular {
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.topo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(../imagens/fundo_topo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-logo{
+    border-radius: 100%;
+    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.menu a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #a77e19;
+    
+}
+
+.menu a:hover{
+    text-shadow: 1px 1px 10px #f7c443;
+}
+
+section h1{
+    color: #a77e19;
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section p{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sobre_nos{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre_nos div{
+    width: 50%;
+    margin: 0% auto;
+}
+
+.sobre_nos div p{
+    color: #a77e19;
+    line-height: 50px;
+    margin-top: 20px;
+    
+
+}
+
+.imagem_animada{
+    overflow-x: hidden;
+    min-width: 400px;
+}
+
+.imagem_animada img{
+    width: 100%;
+    margin-left: 1%;
+    
+}

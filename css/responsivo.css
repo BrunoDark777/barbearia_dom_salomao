@@ -5,6 +5,11 @@
     margin: 10px;
 }
 
+
+.galeria_1 img, .galeria_2 img{
+    width: 110px;
+}
+
 .esconder{
     display: none;
 }

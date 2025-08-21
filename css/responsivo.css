@@ -1,0 +1,11 @@
+@media (max-width: 525px){
+    .sobre_nos div p{
+    text-align: center;
+    line-height: 21px;
+    margin: 10px;
+}
+
+.esconder{
+    display: none;
+}
+}

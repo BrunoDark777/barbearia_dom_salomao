@@ -61,6 +61,7 @@ section h1{
     font-size: 50px;
     margin-top: 30px;
     text-align: center;
+    text-shadow: 2px 2px 3px black;
 }
 
 section h2{
@@ -72,6 +73,7 @@ section p{
     font-weight: bolder;
     font-size: 20px;
     text-align: center;
+    margin: 20px;
 }
 
 .sobre_nos{
@@ -105,4 +107,72 @@ section p{
     width: 100%;
     margin-left: 1%;
     
+}
+
+.galeria_1, .galeria_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.galeria_1 img, .galeria_2 img{
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px black;
+    margin: 10px;
+}
+
+.contato{
+    background-color: black;
+    color: #a77e19;
+}
+
+div iframe{
+    margin-left: 25%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px #a77e19;
+
+}
+
+.redes-s{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+div a{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    color: #a77e19;
+}
+
+div a img{
+    width: 50px;
+    margin-right: 3px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #a77e19;
+}
+
+footer h3{
+    color: #a77e19;
+    margin-bottom: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
 }
